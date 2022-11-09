@@ -1,0 +1,19 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 40px;
+}
+.product--list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.product--item {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.product--item > h2 {
+    margin: 0;
+    padding: 0;
+}
